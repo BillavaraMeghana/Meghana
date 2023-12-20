@@ -11,6 +11,7 @@ class T
 
 	public static void main(String[] args) 
 	{
+		//object reference we are supplying through a method return value
 	    T obj = test();
 		System.out.println("from main: " + obj.i);
 	}
